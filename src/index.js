@@ -2,14 +2,15 @@ import React from "react"
 import ReactDOM from "react-dom"
 import "./style.css"
 
+import App from "./App"
 
 
 
 
 
 
-
-ReactDOM.render(<Hello/> , document.getElementById("root") )
+// v-17
+ReactDOM.render(<App/> , document.getElementById("root") )
 
 
 
